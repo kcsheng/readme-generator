@@ -90,36 +90,38 @@ function writeToFile(filePath, data) {
 
 function generateContent(data) {
   return `
-    <style>
-      h2, h3 {
-        border-bottom: 1px solid gray;
-      }
-    </style>
-    <h2>${data.project_title}</h2>
-    -->badges here <br>
-    ${data.project_descr}
-    <h3>Table of Contents</h3>
-    * <a href="#install">Installation</a>
-    * <a href="#usage">Usage information</a>
-    * <a href="#contribution">Contribution guidelines</a>
-    * <a href="#test">Test instructions</a>
-    * <a href="#license">License</a>
-    * <a href="#contact">Contact</a>
-    <h3 id="install">Installation</h3>
-    ${data.installation}
-    <h3 id="usage">Usage Information</h3>
-    ${data.usage_info}
-    <h3 id="contribution">Contribution guidelines</h3>
-    ${data.guidelines}
-    <h3 id="test">Test instructions</h3>
-    ${data.test}
-    <h3 id="license">License</h3>
-    ${data.license}
-    <h3 id="contact">Contact</h3>
-    Contact me if you have any questions:<br>
-    My guthub link: <a href="https://www.github.com/${data.username}">https://www.github.com/${data.username}</a><br>
-    My email: ${data.email}
-  `;
+<style>
+  h2, h3 {
+    border-bottom: 1px solid #d3d3d3;
+  }
+</style>
+<h2>${data.project_title}</h2>
+-->badges here <br>
+${data.project_descr}
+<h3>Table of Contents</h3>
+<ul>
+  <li><a href="#install">Installation</a></li>
+  <li><a href="#usage">Usage information</a></li>
+  <li><a href="#contribution">Contribution guidelines</a></li>
+  <li><a href="#test">Test instructions</a></li>
+  <li><a href="#license">License</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+<h3 id="install">Installation</h3>
+${data.installation}
+<h3 id="usage">Usage Information</h3>
+${data.usage_info}
+<h3 id="contribution">Contribution guidelines</h3>
+${data.guidelines}
+<h3 id="test">Test instructions</h3>
+${data.test}
+<h3 id="license">License</h3>
+${data.license}
+<h3 id="contact">Contact</h3>
+Contact me if you have any questions:<br>
+My guthub link: <a href="https://www.github.com/${data.username}">https://www.github.com/${data.username}</a><br>
+My email: ${data.email}
+`;
 }
 
 // TODO: Create a function to initialize app
