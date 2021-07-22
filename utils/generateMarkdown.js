@@ -65,7 +65,7 @@ ${data.project_descr}
 </ul>
 <h2 id="install">Installation</h2>
 ${data.installation}
-<h2 id="usage">Usage Information</h2>
+<h2 id="usage">Usage information</h2>
 ${data.usage_info}
 <h2 id="contribution">Contribution guidelines</h2>
 ${data.guidelines}
