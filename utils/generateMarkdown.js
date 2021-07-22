@@ -65,17 +65,19 @@ ${data.project_descr}
 </ul>
 <h2 id="install">Installation</h2>
 ${data.installation}
-<h2 id="usage">Usage information</h2>
+<h2 id="usage">Usage</h2>
 ${data.usage_info}
-<h2 id="contribution">Contribution guidelines</h2>
+<h2 id="contribution">Contributing</h2>
 ${data.guidelines}
-<h2 id="test">Test instructions</h2>
+<h2 id="test">Tests</h2>
 ${data.test}
 <h2 id="license">License</h2>
-${data.license}
-<h2 id="contact">Contact</h2>
-Contact me if you have any questions:<br>
-My guthub link: <a href="https://www.github.com/${data.username}">https://www.github.com/${data.username}</a><br>
+![${license}](${renderLicenseLink(license)})
+<h2 id="contact">Questions</h2>
+Contact me if you have any questions:  
+My guthub link: <a href="https://www.github.com/${
+    data.username
+  }">https://www.github.com/${data.username}</a><br>
 My email: ${data.email}
 `;
 }

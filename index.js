@@ -36,7 +36,6 @@ const requests = [
       "LGPLv3",
       "AGPLv3",
       "Unlicense",
-      "Other",
     ],
     filer(val) {
       return val.toLowerCase();
