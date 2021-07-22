@@ -1,8 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
-
-// TODO: Create an array of questions for user input
 const requests = [
   {
     type: "input",
@@ -66,11 +64,17 @@ const requests = [
   },
 ];
 
+function writeToFile(filePath, data) {
+  fs.writeFile(filePath, generateMarkdown(data), (err) => {
+    if (err) throw err;
+    console.log("File saved successfully.");
+  });
+}
+
 function startInquirer() {
   inquirer
     .prompt(requests)
     .then((data) => {
-      console.log(data);
       writeToFile("./readme/README.md", data);
     })
     .catch((error) => {
@@ -81,15 +85,6 @@ function startInquirer() {
       }
     });
 }
-// TODO: Create a function to write README file
-function writeToFile(filePath, data) {
-  fs.writeFile(filePath, generateMarkdown(data), (err) => {
-    if (err) throw err;
-    console.log("File saved successfully.");
-  });
-}
-
-// TODO: Create a function to initialize app
 function init() {
   startInquirer();
 }
