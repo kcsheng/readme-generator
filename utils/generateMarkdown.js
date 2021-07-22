@@ -74,7 +74,7 @@ ${data.guidelines}
 ${data.test}
 <h2 id="license">License</h2>
 
-![${license}](${renderLicenseLink(license)})
+[${license}](${renderLicenseLink(license)})
 
 <h2 id="contact">Questions</h2>
 Contact me if you have any questions:  
