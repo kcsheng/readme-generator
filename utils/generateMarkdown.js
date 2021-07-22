@@ -47,6 +47,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   const license = data.license;
   const licenseInfo = renderLicenseSection(license);
+  // Template literal only works smoothly with no identation for each line
   return `
 <h1>${data.project_title}</h1>
 
@@ -72,7 +73,9 @@ ${data.guidelines}
 <h2 id="test">Tests</h2>
 ${data.test}
 <h2 id="license">License</h2>
+
 ![${license}](${renderLicenseLink(license)})
+
 <h2 id="contact">Questions</h2>
 Contact me if you have any questions:  
 My guthub link: <a href="https://www.github.com/${
