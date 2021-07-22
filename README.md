@@ -6,7 +6,7 @@ The prompts require input information including 1) projec title, 2) project desc
 
 ### Demo
 
-![video demo]()
+![video demo](demo.gif)
 
 ### Sample
 
