@@ -88,5 +88,4 @@ function init() {
   startInquirer();
 }
 
-// Function call to initialize app
 init();
