@@ -48,20 +48,13 @@ function generateMarkdown(data) {
   const license = data.license;
   const licenseInfo = renderLicenseSection(license);
   return `
-<style type="text/css" rel="stylesheet">
-h2, h3 {
-  border-bottom: 1px solid #d3d3d3;
-  padding-bottom: 5px;
-}
-</style>
-
-<h2>${data.project_title}</h2>
+<h1>${data.project_title}</h1>
 
 ${licenseInfo}
 
-<h3>Description</h3>
+<h2>Description</h2>
 ${data.project_descr}
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 <ul>
   <li><a href="#install">Installation</a></li>
   <li><a href="#usage">Usage</a></li>
@@ -70,17 +63,17 @@ ${data.project_descr}
   <li><a href="#license">License</a></li>
   <li><a href="#contact">Questions</a></li>
 </ul>
-<h3 id="install">Installation</h3>
+<h2 id="install">Installation</h2>
 ${data.installation}
-<h3 id="usage">Usage Information</h3>
+<h2 id="usage">Usage Information</h2>
 ${data.usage_info}
-<h3 id="contribution">Contribution guidelines</h3>
+<h2 id="contribution">Contribution guidelines</h2>
 ${data.guidelines}
-<h3 id="test">Test instructions</h3>
+<h2 id="test">Test instructions</h2>
 ${data.test}
-<h3 id="license">License</h3>
+<h2 id="license">License</h2>
 ${data.license}
-<h3 id="contact">Contact</h3>
+<h2 id="contact">Contact</h2>
 Contact me if you have any questions:<br>
 My guthub link: <a href="https://www.github.com/${data.username}">https://www.github.com/${data.username}</a><br>
 My email: ${data.email}
