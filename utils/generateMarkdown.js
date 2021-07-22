@@ -49,10 +49,10 @@ function generateMarkdown(data) {
   const licenseInfo = renderLicenseSection(license);
   return `
 <style>
-  h2, h3 {
-    border-bottom: 1px solid #d3d3d3;
-    padding-bottom: 5px;
-  }
+h2, h3 {
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 5px;
+}
 </style>
 <h2>${data.project_title}</h2>
 
