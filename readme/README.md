@@ -1,16 +1,16 @@
 
-<style>
+<style type="text/css" rel="stylesheet">
 h2, h3 {
   border-bottom: 1px solid #d3d3d3;
   padding-bottom: 5px;
 }
 </style>
-<h2>dfgsfhgj</h2>
+<h2>gsdfh</h2>
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 <h3>Description</h3>
-tyuri
+fgdjhk
 <h3>Table of Contents</h3>
 <ul>
   <li><a href="#install">Installation</a></li>
@@ -21,16 +21,16 @@ tyuri
   <li><a href="#contact">Questions</a></li>
 </ul>
 <h3 id="install">Installation</h3>
-sdfgh
+tyuri
 <h3 id="usage">Usage Information</h3>
-dsfdjky
+rdtyj
 <h3 id="contribution">Contribution guidelines</h3>
-fghdjkf
+ghkfj
 <h3 id="test">Test instructions</h3>
-fdgjhfk
+dfgjhfk
 <h3 id="license">License</h3>
-GPLv2
+GPLv3
 <h3 id="contact">Contact</h3>
 Contact me if you have any questions:<br>
-My guthub link: <a href="https://www.github.com/fdghjf">https://www.github.com/fdghjf</a><br>
-My email: fghjf
+My guthub link: <a href="https://www.github.com/fdjgf">https://www.github.com/fdjgf</a><br>
+My email: fgjhk

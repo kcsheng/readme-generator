@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   const license = data.license;
   const licenseInfo = renderLicenseSection(license);
   return `
-<style>
+<style type="text/css" rel="stylesheet">
 h2, h3 {
   border-bottom: 1px solid #d3d3d3;
   padding-bottom: 5px;
