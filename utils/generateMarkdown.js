@@ -54,6 +54,7 @@ h2, h3 {
   padding-bottom: 5px;
 }
 </style>
+
 <h2>${data.project_title}</h2>
 
 ${licenseInfo}
