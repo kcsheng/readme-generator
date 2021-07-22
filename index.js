@@ -15,7 +15,7 @@ const requests = [
   {
     type: "input",
     name: "installation",
-    message: "Enter installtion instructions:",
+    message: "Enter installation instructions:",
   },
   {
     type: "input",
