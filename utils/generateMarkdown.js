@@ -77,7 +77,8 @@ ${data.test}
 [${license}](${renderLicenseLink(license)})
 
 <h2 id="contact">Questions</h2>
-Contact me if you have any questions:  
+
+Contact me if you have any questions:<br>
 My guthub link: <a href="https://www.github.com/${
     data.username
   }">https://www.github.com/${data.username}</a><br>
