@@ -37,9 +37,6 @@ const requests = [
       "AGPLv3",
       "Unlicense",
     ],
-    filer(val) {
-      return val.toLowerCase();
-    },
   },
   {
     type: "input",
